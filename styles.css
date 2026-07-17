@@ -1,0 +1,248 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*:not(dialog) {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+main {
+    margin-inline: 1.9rem;
+}
+
+.recipe{
+    padding-block-end: 1rem;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+    .recipe {
+        background-color: white;
+        max-width: 60%;
+        margin: 7rem auto;
+        border-radius: 20px;
+        padding: 2rem 2rem 1rem;
+    }
+    img {
+        border-radius: 10px;
+    }
+    header h1, header p, main {
+        margin-inline: 0;
+    }
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+@font-face {
+    font-family: young-serif;
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'young-serif', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: left;
+    margin: 1.5rem 1.9rem 1rem;
+    text-wrap: wrap;
+    line-height: 1.1;
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    font-family: 'outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    margin: 0 1.9rem 1rem;
+}
+
+.preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1rem 0.5rem 1.5rem;
+    margin-block: 2rem 1.5rem;
+    border-radius: 8px;
+}
+
+.preparation-time p {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.preparation-time ul {
+    list-style: none;
+}
+
+.preparation-time li {
+    font-family: 'outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin-block-end: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.preparation-time li::before {
+    content: "•";
+    margin-inline-end: 1.5rem;
+    font-size: 1.3rem;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time li span {
+    font-weight: 700;
+}
+
+.ingredients {
+    margin-block: 2rem 1.5rem;
+    border-block-end: 1px solid hsl(30, 10%, 80%);
+    padding-block-end: 1.4rem;
+}
+
+.ingredients h2 {
+    font-family: 'young-serif', serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: hsl(14, 45%, 36%);
+    margin-block-end: 0.7rem;
+}
+
+.ingredients li::before {
+    content: "•";
+    margin-inline-end: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.ingredients li {
+    font-family: 'outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    padding-inline-start: 0.4rem;
+    margin-block-end: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.instructions {
+    margin-block: 1.4rem 1.5rem;
+    border-block-end: 1px solid hsl(30, 10%, 80%);
+    padding-block-end: 1.8rem;
+}
+
+.instructions h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'young-serif', serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-block-end: 0.7rem;
+}
+
+.instructions li {
+    font-family: 'outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    padding-inline-start: 1rem;
+}
+
+.instructions li span {
+    font-weight: 700;
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.instructions ol {
+    padding-inline-start: 1.4rem;
+}
+
+.nutrition {
+    margin-block: 1.5rem 1.4rem;
+    border-block-end: 1px solid hsl(24, 5%, 18%);
+    padding-block-end: 2.5rem;
+}
+
+.nutrition h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'young-serif', serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.nutrition p {
+    margin: 1rem 0;
+}
+
+table tr th {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-family: 'outfit', sans-serif;
+}
+table tr td {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-family: 'outfit', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 100%;
+}
+
+table th, table td {
+    border-block-end: 1px solid hsl(30, 10%, 80%);
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+tr:last-child th, tr:last-child td {
+    border-block-end: none;
+}
+
+footer p {
+    text-align: center;
+    margin: 0.5rem auto;
+    color: hsl(24, 5%, 18%)
+}
