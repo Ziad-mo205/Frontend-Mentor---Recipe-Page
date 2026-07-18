@@ -27,13 +27,16 @@ main {
         max-width: 60%;
         margin: 7rem auto;
         border-radius: 20px;
-        padding: 2rem 2rem 1rem;
+        padding: 2.7rem 2.7rem 1rem;
     }
     img {
         border-radius: 10px;
     }
     header h1, header p, main {
         margin-inline: 0;
+    }
+    header h1 {
+        font-size: 2.5rem;
     }
 }
 
@@ -82,7 +85,7 @@ h1 {
     font-weight: 400;
     font-size: 2rem;
     text-align: left;
-    margin: 1.5rem 1.9rem 1rem;
+    margin: 2.5rem 1.9rem 1.3rem;
     text-wrap: wrap;
     line-height: 1.1;
     color: hsl(24, 5%, 18%);
