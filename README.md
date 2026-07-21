@@ -1,7 +1,7 @@
 # 🍽️ Recipe Page
 
 <p align="center">
-  <img src="./preview.jpg" alt="Recipe Page Preview" width="100%">
+  <img src="./preview.png" alt="Recipe Page Preview" width="100%">
 </p>
 
 A responsive recipe page built with HTML and CSS as part of a Frontend Mentor challenge.
