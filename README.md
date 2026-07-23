@@ -36,4 +36,4 @@ Throughout this project, I practiced:
 
 - 🌐 **Live Site:** https://frontend-mentor-recipe-page-psi.vercel.app/
 - 💻 **Repository:** https://github.com/Ziad-mo205/Frontend-Mentor---Recipe-Page
-- 🎯 **Frontend Mentor Solution:** *(https://www.frontendmentor.io/solutions/responsive-recipe-page-using-media-query-8O6PSC1mOI)*
+- 🎯 **My Frontend Mentor Solution:** *(https://www.frontendmentor.io/solutions/responsive-recipe-page-using-media-query-8O6PSC1mOI)*
